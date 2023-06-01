@@ -10,7 +10,8 @@
   "exports": {
     ".": {
       "import": "./dist/sample-lib-es.js",
-      "require": "./dist/sample-lib-umd.cjs"
+      "require": "./dist/sample-lib-umd.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "types": "./dist/index.d.ts",
