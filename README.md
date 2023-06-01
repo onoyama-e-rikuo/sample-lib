@@ -5,3 +5,9 @@
 - typescript
 - storybook
 - chromatic
+- vitest
+- eslint
+- prettier
+- huskey
+
+
