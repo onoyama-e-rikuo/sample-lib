@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "my-libs",
-      fileName: (format) => `my-libs-${format}.js`,
+      name: "sample-lib",
+      fileName: (format) => `sample-lib-${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],

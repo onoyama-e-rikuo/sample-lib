@@ -1,16 +1,16 @@
 {
-  "name": "@eva-interrete/my-lib",
+  "name": "@onoyama-e-rikuo/sample-lib",
   "version": "0.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/my-libs-umd.cjs",
-  "module": "./dist/my-libs-es.js",
+  "main": "./dist/sample-lib-umd.cjs",
+  "module": "./dist/sample-lib-es.js",
   "exports": {
     ".": {
-      "import": "./dist/my-libs-es.js",
-      "require": "./dist/my-libs-umd.cjs"
+      "import": "./dist/sample-lib-es.js",
+      "require": "./dist/sample-lib-umd.cjs"
     }
   },
   "types": "./dist/index.d.ts",
@@ -42,6 +42,8 @@
     "react-dom": "^18.2.0"
   },
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
-  }
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "UNLICENSED"
 }
